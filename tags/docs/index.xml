@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Opensource SSP Server</title><link>https://sspserver.org/tags/docs/</link><description>Recent content in Docs on Opensource SSP Server</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 - 2025</copyright><atom:link href="https://sspserver.org/tags/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick start</title><link>https://sspserver.org/docs/quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/docs/quickstart/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+SSP server is a simple, yet powerful server that can be used to host your static websites. This guide will help you get started with SSP server.
+&lt;/div>
+&lt;h2 class="relative group">Installation
+&lt;div id="installation" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#installation" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>To install SSP server, download the latest release from the &lt;a href="https://github.com/sspserver/sspserver/releases" target="_blank">github releases page&lt;/a>. Extract the downloaded archive and run the &lt;code>sspserver&lt;/code> binary.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sspserver.org/docs/quickstart/featured.svg"/></item><item><title>Installation</title><link>https://sspserver.org/docs/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/docs/installation/</guid><description>&lt;blockquote>
+&lt;p>IN PROGRESS: This documentation is a work in progress. We are continuously updating it with new information and features. If you have any suggestions or feedback, please let us know!&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sspserver.org/docs/installation/featured.png"/></item></channel></rss>
