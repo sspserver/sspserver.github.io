@@ -1,5 +1,5 @@
 module github.com/sspserver/landing
 
-go 1.22
+go 1.24
 
-require github.com/nunocoracao/blowfish/v2 v2.73.0 // indirect
+require github.com/nunocoracao/blowfish/v2 v2.83.0 // indirect
