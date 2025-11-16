@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Deployment on Opensource SSP Server</title><link>https://sspserver.org/tags/deployment/</link><description>Recent content in Deployment on Opensource SSP Server</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 - 2025</copyright><atom:link href="https://sspserver.org/tags/deployment/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://sspserver.org/docs/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/docs/installation/</guid><description>&lt;p>Automated deployment scripts for SSP Server using standalone mode with cross-platform support.&lt;/p>
+&lt;h2 class="relative group">🚀 Quick Start
+&lt;div id="-quick-start" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#-quick-start" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;h3 class="relative group">Interactive Installation (Recommended)
+&lt;div id="interactive-installation-recommended" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#interactive-installation-recommended" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>Download and run locally for interactive mode:&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sspserver.org/docs/installation/featured.png"/></item><item><title>Deployment</title><link>https://sspserver.org/docs/deployment/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/docs/deployment/</guid><description>&lt;h2 class="relative group">📝 Logging
+&lt;div id="-logging" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#-logging" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>All installation activities are logged with unified format:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Log Location&lt;/strong>: &lt;code>/var/log/sspserver/sspserver_1click_standalone.log&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Log Format&lt;/strong>: &lt;code>[TIMESTAMP] [TYPE] Message&lt;/code>&lt;/li>
+&lt;li>&lt;strong>Log Types&lt;/strong>: &lt;code>[ERROR]&lt;/code>, &lt;code>[INFO]&lt;/code>, &lt;code>[OK]&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 class="relative group">🔍 Service Management
+&lt;div id="-service-management" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#-service-management" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;h3 class="relative group">Ubuntu/Debian (systemd)
+&lt;div id="ubuntudebian-systemd" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#ubuntudebian-systemd" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check service status&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">systemctl status sspserver
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Start/stop/restart service&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo systemctl start sspserver
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo systemctl stop sspserver
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo systemctl restart sspserver
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># View logs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">journalctl -u sspserver -f
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 class="relative group">macOS (launchd)
+&lt;div id="macos-launchd" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#macos-launchd" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check service status&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo launchctl list &lt;span class="p">|&lt;/span> grep sspserver
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Start/stop service&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo launchctl load /Library/LaunchDaemons/com.sspserver.plist
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo launchctl unload /Library/LaunchDaemons/com.sspserver.plist
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># View logs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tail -f /var/log/sspserver/sspserver_1click_standalone.log
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 class="relative group">🆘 Troubleshooting
+&lt;div id="-troubleshooting" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#-troubleshooting" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;h3 class="relative group">Common Issues
+&lt;div id="common-issues" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#common-issues" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Permission Denied&lt;/strong>: Ensure you have sudo/root privileges&lt;/li>
+&lt;li>&lt;strong>Network Issues&lt;/strong>: Check internet connectivity and firewall settings&lt;/li>
+&lt;li>&lt;strong>Port Conflicts&lt;/strong>: Ensure required ports are available&lt;/li>
+&lt;li>&lt;strong>Disk Space&lt;/strong>: Verify sufficient free space (minimum 10GB)&lt;/li>
+&lt;/ol>
+&lt;h3 class="relative group">Debug Information
+&lt;div id="debug-information" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#debug-information" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check system requirements&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">./install.sh --help
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># View installation logs&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">tail -f /var/log/sspserver/sspserver_1click_standalone.log
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Check service status&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Ubuntu/Debian: systemctl status sspserver&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># macOS: sudo launchctl list | grep sspserver&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 class="relative group">🔄 Updates
+&lt;div id="-updates" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#-updates" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>To update SSP Server, simply re-run the installation script:&lt;/p></description></item><item><title>DigitalOcean Deployment</title><link>https://sspserver.org/docs/digitalocean/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/docs/digitalocean/</guid><description>&lt;h2 class="relative group">🌊 DigitalOcean Droplet Deployment
+&lt;div id="-digitalocean-droplet-deployment" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#-digitalocean-droplet-deployment" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Deploy SSP Server on DigitalOcean with our optimized one-click installation process. This guide covers everything from droplet creation to production-ready configuration.&lt;/p></description></item></channel></rss>

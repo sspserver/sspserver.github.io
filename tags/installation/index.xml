@@ -1,2 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installation on Opensource SSP Server</title><link>https://sspserver.org/tags/installation/</link><description>Recent content in Installation on Opensource SSP Server</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 - 2025</copyright><atom:link href="https://sspserver.org/tags/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Installation</title><link>https://sspserver.org/docs/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/docs/installation/</guid><description>&lt;blockquote>
-&lt;p>IN PROGRESS: This documentation is a work in progress. We are continuously updating it with new information and features. If you have any suggestions or feedback, please let us know!&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sspserver.org/docs/installation/featured.png"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Installation on Opensource SSP Server</title><link>https://sspserver.org/tags/installation/</link><description>Recent content in Installation on Opensource SSP Server</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 - 2025</copyright><atom:link href="https://sspserver.org/tags/installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Quick start</title><link>https://sspserver.org/docs/quickstart/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/docs/quickstart/</guid><description>&lt;div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+SSP Server is a powerful Supply-Side Platform that helps publishers monetize their inventory through Real-Time Bidding (RTB). Get started in minutes with our automated deployment script.
+&lt;/div>
+&lt;h2 class="relative group">One-Click Installation
+&lt;div id="one-click-installation" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#one-click-installation" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>The fastest way to get SSP Server running is with our automated installation script:&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sspserver.org/docs/quickstart/featured.svg"/></item><item><title>Installation</title><link>https://sspserver.org/docs/installation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/docs/installation/</guid><description>&lt;p>Automated deployment scripts for SSP Server using standalone mode with cross-platform support.&lt;/p>
+&lt;h2 class="relative group">🚀 Quick Start
+&lt;div id="-quick-start" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#-quick-start" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;h3 class="relative group">Interactive Installation (Recommended)
+&lt;div id="interactive-installation-recommended" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#interactive-installation-recommended" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>Download and run locally for interactive mode:&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://sspserver.org/docs/installation/featured.png"/></item></channel></rss>

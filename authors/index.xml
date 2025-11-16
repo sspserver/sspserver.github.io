@@ -1,1 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authors on Opensource SSP Server</title><link>https://sspserver.org/authors/</link><description>Recent content in Authors on Opensource SSP Server</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 - 2025</copyright><atom:link href="https://sspserver.org/authors/index.xml" rel="self" type="application/rss+xml"/><item><title>Dummy Second Author</title><link>https://sspserver.org/authors/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/authors/main/</guid><description>&lt;p>Dummy Second Author&amp;rsquo;s awesome dummy bio.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authors on Opensource SSP Server</title><link>https://sspserver.org/authors/</link><description>Recent content in Authors on Opensource SSP Server</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2023 - 2025</copyright><atom:link href="https://sspserver.org/authors/index.xml" rel="self" type="application/rss+xml"/><item><title>Dmitry Ponomarev</title><link>https://sspserver.org/authors/main/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://sspserver.org/authors/main/</guid><description>&lt;h2 class="relative group">About Dmitry
+&lt;div id="about-dmitry" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#about-dmitry" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Lead developer and maintainer of the SSP Server project. Experienced in building scalable advertising technology solutions and passionate about open-source software development.&lt;/p></description></item></channel></rss>
