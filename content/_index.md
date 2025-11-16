@@ -27,7 +27,9 @@ Experience SSP Server's capabilities before installing:
 **[🔗 Live Demo](https://demo.sspserver.org/)**
 
 - Explore RTB connection management
-- Configure ad placements and inventory
+- Configure RTB sources and ad units
+- Set up advanced targeting rules
+- Analyze real-time bidding data
 - Monitor performance dashboards
 - Test optimization features
 
@@ -35,8 +37,8 @@ Experience SSP Server's capabilities before installing:
 
 - **✅ Ubuntu/Debian Linux** - Full systemd integration
 - **✅ DigitalOcean Droplets** - Optimized for `ubuntu-s-2vcpu-4gb`
-- **✅ macOS/Darwin** - Complete launchd support
 - **✅ Cloudflare Integration** - DNS, SSL, and performance optimization
+- **🔄 macOS/Darwin** - Coming soon (mostly for development and testing)
 - **🔄 CentOS/RHEL** - Coming soon
 
 ## 📚 Documentation
@@ -68,9 +70,9 @@ Experience SSP Server's capabilities before installing:
 ## 🔧 Enterprise Features
 
 - **Multi-tenant Architecture** - Support multiple publishers
-- **Advanced Targeting** - Demographic, geographic, and behavioral
+- **Advanced Targeting** - Geographic, technographic, and source-based targeting
 - **Header Bidding** - Client-side and server-side support
-- **Yield Optimization** - AI-powered revenue maximization
+- **Yield Optimization** - Revenue maximization
 - **Custom Integrations** - Flexible API and webhook system
 - **24/7 Monitoring** - Built-in health checks and alerting
 
