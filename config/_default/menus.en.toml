@@ -15,28 +15,6 @@
   pageRef = "docs"
   weight = 10
 
-# [[main]]
-#   name = "Examples"
-#   weight = 20
-
-# [[main]]
-#   name = "Samples"
-#   parent = "Examples"
-#   pageRef = "samples"
-#   weight = 16
-
-# [[main]]
-#   name = "Showcase"
-#   parent = "Examples"
-#   pageRef = "examples"
-#   weight = 30
-
-# [[main]]
-#   name = "Recipes"
-#   parent = "Examples"
-#   pageRef = "guides"
-#   weight = 40
-
 [[main]]
   name = "Contacts"
   pageRef = "contacts"
@@ -75,7 +53,7 @@
 #    pageRef = "tags"
 #    weight = 10
 
-#  [[footer]]
-#    name = "Authors"
-#    pageRef = "authors"
-#    weight = 20
+ [[footer]]
+   name = "Authors"
+   pageRef = "authors"
+   weight = 20
