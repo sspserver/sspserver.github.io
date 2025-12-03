@@ -104,8 +104,62 @@ cd /opt && bash <(curl -sSL https://raw.githubusercontent.com/sspserver/deploy/r
 
 During interactive installation, you'll be prompted to configure:
 
-- **SSP API Domain** (default: `apidemo.sspserver.org`)
-- **SSP UI Domain** (default: `demo.sspserver.org`)
-- **SSP Server Domain** (default: `sspdemo.sspserver.org`)
+- **SSP API Domain** (default: `api.sspserver.org`)
+- **SSP UI Domain** (default: `control.sspserver.org`)
+- **SSP Server Domain** (default: `ssp.sspserver.org`)
+- **SSP JSSDK Domain** (default: `jssdk.sspserver.org`)
+- **SSP Tracker Domain** (default: `ssp.sspserver.org`)
 
 In automated mode (`-y` flag), default values are used.
+
+## 📋 Installation Log Example
+
+Here's a sample installation log showing the complete process:
+
+```bash
+root@adserver-test-1:/# bash <(curl -sSL https://raw.githubusercontent.com/sspserver/deploy/refs/heads/main/standalone/install.sh)
+03-12-2025 12:53:10 [INFO] System Information:
+OS Name: linux (6.8.0-71-generic)
+OS Type: adserver-test-1
+OS Arch: x86_64
+03-12-2025 12:53:10 [INFO] Checking OS...
+03-12-2025 12:53:10 [OK] Check OS [ubuntu]
+03-12-2025 12:53:10 [INFO] Checking architecture...
+03-12-2025 12:53:10 [OK] Check architecture [x86_64]
+03-12-2025 12:53:10 [INFO] Checking CPU...
+03-12-2025 12:53:10 [OK] Check CPU [2]
+03-12-2025 12:53:11 [INFO] Checking RAM...
+03-12-2025 12:53:11 [OK] Check RAM [3.82 GB]
+03-12-2025 12:53:11 [INFO] Checking storage...
+03-12-2025 12:53:11 [OK] Free storage check [73.72 GB] in /var/lib
+03-12-2025 12:53:11 [OK] All checks passed. Proceeding with the installation...
+===============================================
+
+Do you want to continue with the installation? [y/N]: y
+03-12-2025 12:53:12 [INFO] Starting installation...
+03-12-2025 12:53:12 [INFO] Installing dependencies...
+03-12-2025 12:53:16 [OK] Package 'curl' is already installed.
+03-12-2025 12:53:16 [OK] Package 'unzip' is already installed.
+03-12-2025 12:53:16 [OK] Package 'jq' is already installed.
+03-12-2025 12:53:16 [OK] Package 'git' is already installed.
+03-12-2025 12:53:16 [OK] Package 'build-essential' is already installed.
+03-12-2025 12:53:16 [INFO] Checking for Docker...
+03-12-2025 12:53:16 [OK] Docker is already installed
+03-12-2025 12:53:18 [INFO] Setting domains of the service...
+Enter the domain for the project [sspserver.org]: mydomain.com
+Enter the domain for the SSP API server [api.mydomain.com]:
+Enter the domain for the SSP UI server [control.mydomain.com]:
+Enter the domain for the SSP AD server [ssp.mydomain.com]:
+Enter the domain for the SSP JSSDK server [jssdk.mydomain.com]:
+Enter the domain for the SSP Tracker server [ssp.mydomain.com]:
+03-12-2025 12:54:26 [OK] SSP service started successfully
+```
+
+The installation process includes:
+
+1. System requirements validation
+2. Dependency installation and verification
+3. Docker setup confirmation
+4. Domain configuration for all services
+5. Database setup (PostgreSQL and ClickHouse)
+6. Service deployment and startup
